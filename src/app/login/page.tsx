@@ -59,7 +59,7 @@ export default function Login() {
           onChange={(e) => setUser({ ...user, password: e.target.value })}
           placeholder='user password'
         />
-        <button onClick={onLogin}>Sign up</button>
+        <button onClick={onLogin}>Login</button>
         <Link href={'/signup'}> Sign here</Link>
       </div>
 
