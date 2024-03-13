@@ -41,7 +41,7 @@ export default function Login() {
 
   return (
     <>
-      <div className="flex">
+      <div className="flex min-h-screen flex-col items-center justify-between p-24">
         <h1 className="text-center text-white text-2xl">Login</h1>
         <label htmlFor="username">User email</label>
         <input

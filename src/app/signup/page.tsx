@@ -41,7 +41,7 @@ export default function SignUp() {
   }
   return (
     <>
-      <div className="flex">
+      <div className="flex min-h-screen flex-col items-center justify-between p-24">
         <h1 className="text-center text-white text-2xl">
           {loading ? "Waiting" : "Signup"}
         </h1>

@@ -9,8 +9,7 @@ interface UserProfileProps {
 export default function UserProfile({ params }: UserProfileProps) {
   return (
     <>
-      <h2>Profile name {params.name}</h2>
-      <p>id {params.id}</p>
+      <h2>Profile name id {params.id}</h2>
     </>
   )
 }
